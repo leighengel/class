@@ -5,6 +5,7 @@
 <ul>
   <% for company in companies %>
     <li>
+      <a href="/companies/<%= company ["id"]%>%">
       <%= company["name"] %>
     </li>
   <% end %>
